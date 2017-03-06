@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-protobuf-demo
+  memory: 256M
+  path: build/libs/protobuf-demo-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  random-route: true
